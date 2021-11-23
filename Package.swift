@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "SAMTextField",
+    platforms: [
+      .iOS(.v12)
+    ],
     products: [
         .library(
           name: "SAMTextField",
